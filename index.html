@@ -3,51 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dmytro Vasylkivskyi - Business Information</title>
+    <title>Dmytro Vasylkivskyi - Business Profile</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 20px;
-            line-height: 1.6;
-        }
-        h1 {
+            margin: 0;
+            padding: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #f4f6f9;
             color: #333;
         }
-        .section {
-            margin-bottom: 25px;
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 18px rgba(0,0,0,0.08);
         }
+
+        h1 {
+            text-align: center;
+            color: #222;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            margin-top: 35px;
+            color: #222;
+        }
+
         .label {
             font-weight: bold;
+            color: #444;
         }
-        img {
-            max-width: 180px;
+
+        .info-box {
+            background: #fafafa;
+            padding: 20px;
             border-radius: 10px;
-            margin-top: 10px;
+            border: 1px solid #ececec;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        table th, table td {
+            border: 1px solid #e5e5e5;
+            padding: 12px;
+            text-align: left;
+        }
+
+        table th {
+            background: #f0f0f0;
+            font-weight: bold;
+        }
+
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 13px;
+            color: #777;
         }
     </style>
 </head>
 <body>
-    <h1>Business Information</h1>
 
-    <div class="section">
-        <p><span class="label">Name:</span> Dmytro Vasylkivskyi</p>
-        <p><span class="label">Email:</span> dovasy0325@gmail.com</p>
-        <p><span class="label">Address:</span> 193 Piliponivska str, Bershad, Ukraine</p>
-    </div>
+    <div class="container">
+        <h1>Dmytro Vasylkivskyi</h1>
+        <p style="text-align:center;">Business Profile & Information Page</p>
 
-    <div class="section">
+        <!-- Personal Info -->
+        <div class="info-box">
+            <p><span class="label">Name:</span> Dmytro Vasylkivskyi</p>
+            <p><span class="label">Email:</span> dovasy0325@gmail.com</p>
+            <p><span class="label">Address:</span> 193 Piliponivska str, Bershad, Ukraine</p>
+        </div>
+
+        <!-- Business Description -->
         <h2>About My Work</h2>
         <p>
-            I provide software development, automation solutions, and related IT services.
-            This page is used to verify my business information for payment processing and identity confirmation.
+            I specialize in developing automation tools and information management systems that support
+            IMS (Integrated Management Systems) and ISO-related workflows.  
+            My work includes creating digital solutions for document handling, operational automation,
+            and structured data management for organizations seeking to improve efficiency and compliance.
+            This page serves as an official business information reference for verification purposes.
         </p>
+
+        <!-- Document Table -->
+        <h2>IMS / ISO Document Library</h2>
+        <p>This section provides a structured index of example documents related to IMS/ISO systems.</p>
+
+        <table>
+            <tr>
+                <th>Document Name</th>
+                <th>Category</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td>Quality Management Manual</td>
+                <td>ISO 9001</td>
+                <td><a href="#">Open Document</a></td>
+            </tr>
+            <tr>
+                <td>Environmental Management Procedure</td>
+                <td>ISO 14001</td>
+                <td><a href="#">Open Document</a></td>
+            </tr>
+            <tr>
+                <td>Occupational Health & Safety Guide</td>
+                <td>ISO 45001</td>
+                <td><a href="#">Open Document</a></td>
+            </tr>
+            <tr>
+                <td>Risk Assessment Register</td>
+                <td>IMS General</td>
+                <td><a href="#">Open Document</a></td>
+            </tr>
+            <tr>
+                <td>Internal Audit Checklist</td>
+                <td>Audit Tools</td>
+                <td><a href="#">Open Document</a></td>
+            </tr>
+            <tr>
+                <td>Corrective Action Report Form</td>
+                <td>CA/PA</td>
+                <td><a href="#">Open Document</a></td>
+            </tr>
+        </table>
+
+        <!-- Contact -->
+        <h2>Contact</h2>
+        <p>
+            For business inquiries or collaboration opportunities, please reach me through the email provided above.
+        </p>
+
+        <div class="footer">© 2025 Dmytro Vasylkivskyi — Business Verification Page</div>
     </div>
 
-    <div class="section">
-        <h2>Contact</h2>
-        <p>If you have business inquiries, please reach me via email.</p>
-    </div>
 </body>
 </html>
